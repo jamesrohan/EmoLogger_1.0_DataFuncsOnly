@@ -69,9 +69,10 @@ public class EmoDataLogger_FFT_BandPower {
 								
 								IntByReference type = new IntByReference(0);
 								Edk.INSTANCE.IEE_FFTGetWindowingType(userID.getValue(), type);
-								
-								double Defau_WindowSize = 2; double Defau_StepSize = 0.5;
+								double Defau_StepSize = 0.5; double Defau_WindowSize = 2; 
 			                
+								
+								
 			                System.out.println();
 			            }	//End For            	      
 						
